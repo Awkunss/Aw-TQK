@@ -1,0 +1,70 @@
+/* Header */
+body {
+    background-image: linear-gradient(45deg,rgba(40, 119, 246, 0.3),rgba(124, 42, 239, 0.3) );
+}
+.header {
+    background-color: rgba(32, 146, 240, 0.5);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+
+}
+
+.list_header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-self: end;
+}
+
+.list_header > li {
+    margin: 0 1rem 0 1rem;
+    height: 20px;
+    align-self: center;
+    text-align: center;
+    list-style-type:none;
+
+} 
+
+
+#logo{
+    width: 10rem;
+    padding-left: 1rem;
+}
+
+/* Introduce */
+
+.introduce {
+    background-color: rgba(51, 110, 237, 0.516);
+    margin: 1rem 0;
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+}
+
+#img_intro {
+    height: 600px;
+    
+}
+
+.text_intro {
+    width: 40%;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    padding-left: 5% ;
+}
+
+.text_intro > h3,h1,h4,p {
+    margin: 2rem;
+}
+
+.achievement{
+    display:none;
+}
+
+.list_header >li #achi:hover{
+    display:block;
+}
+
